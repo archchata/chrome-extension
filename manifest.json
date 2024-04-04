@@ -1,26 +1,10 @@
 {
-    "name": "AdBlockerExtension",
-    "description": "Blocks ads",
+    "name": "BreakTime",
+    "description": "Base Level Extension",
     "version": "1.0",
     "manifest_version": 3,
-    
-    "host_permissions": [
-        "*://*/*"
-    ],
-
-    "permissions": [
-        "declarativeNetRequest",
-        "declarativeNetRequestFeedback"
-    ],
-
-    // "background": {
-    //     "service_worker": "background.js"
-    // },
-
     "action": {
-        "default_icon": "images/eagles-icon.png",
-        "default_popup": "background.js"
+      "default_popup": "hello.html",
+      "default_icon": "BreakTime2.png"
     }
-}
-
-
+  }
